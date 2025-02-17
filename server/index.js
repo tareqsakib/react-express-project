@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Example route
 app.get('/api', (req, res) => {
-  res.send('Hello from Express [edited]!');
+  res.send('Checking api response');
 });
 
 app.listen(port, () => {
